@@ -1,0 +1,115 @@
+﻿  game2.cpp
+D:\Cdaima\private\五子棋\五子棋\game2.cpp(70,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+      E:\VS I 2022\VC\Auxiliary\VS\include\easyx.h(258,6):
+      可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+          D:\Cdaima\private\五子棋\五子棋\game2.cpp(70,2):
+          “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [22]”转换为“LPCTSTR”
+              D:\Cdaima\private\五子棋\五子棋\game2.cpp(70,17):
+              指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      D:\Cdaima\private\五子棋\五子棋\game2.cpp(70,2):
+      尝试匹配参数列表“(IMAGE *, const char [22])”时
+  
+D:\Cdaima\private\五子棋\五子棋\game2.cpp(194,5): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [10]”转换为“LPCWSTR”
+      D:\Cdaima\private\五子棋\五子棋\game2.cpp(194,27):
+      指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1):
+      参见“MessageBoxW”的声明
+      D:\Cdaima\private\五子棋\五子棋\game2.cpp(194,5):
+      尝试匹配参数列表“(HWND, const char [10], const char [4], long)”时
+  
+  game1.cpp
+D:\Cdaima\private\五子棋\五子棋\game1.cpp(90,5): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+      E:\VS I 2022\VC\Auxiliary\VS\include\easyx.h(258,6):
+      可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+          D:\Cdaima\private\五子棋\五子棋\game1.cpp(90,5):
+          “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [22]”转换为“LPCTSTR”
+              D:\Cdaima\private\五子棋\五子棋\game1.cpp(90,20):
+              指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      D:\Cdaima\private\五子棋\五子棋\game1.cpp(90,5):
+      尝试匹配参数列表“(IMAGE *, const char [22])”时
+  
+D:\Cdaima\private\五子棋\五子棋\game1.cpp(186,17): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [10]”转换为“LPCWSTR”
+      D:\Cdaima\private\五子棋\五子棋\game1.cpp(186,39):
+      指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1):
+      参见“MessageBoxW”的声明
+      D:\Cdaima\private\五子棋\五子棋\game1.cpp(186,17):
+      尝试匹配参数列表“(HWND, const char [10], const char [4], long)”时
+  
+D:\Cdaima\private\五子棋\五子棋\game1.cpp(198,17): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [15]”转换为“LPCWSTR”
+      D:\Cdaima\private\五子棋\五子棋\game1.cpp(198,39):
+      指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1):
+      参见“MessageBoxW”的声明
+      D:\Cdaima\private\五子棋\五子棋\game1.cpp(198,17):
+      尝试匹配参数列表“(HWND, const char [15], const char [4], long)”时
+  
+  test.cpp
+D:\Cdaima\private\五子棋\五子棋\test.cpp(47,2): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+      E:\VS I 2022\VC\Auxiliary\VS\include\easyx.h(258,6):
+      可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+          D:\Cdaima\private\五子棋\五子棋\test.cpp(47,2):
+          “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [22]”转换为“LPCTSTR”
+              D:\Cdaima\private\五子棋\五子棋\test.cpp(47,17):
+              指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      D:\Cdaima\private\五子棋\五子棋\test.cpp(47,2):
+      尝试匹配参数列表“(IMAGE *, const char [22])”时
+  
+D:\Cdaima\private\五子棋\五子棋\test.cpp(81,2): error C2665: “settextstyle”: 没有重载函数可以转换所有参数类型
+      E:\VS I 2022\VC\Auxiliary\VS\include\easyx.h(249,6):
+      可能是“void settextstyle(int,int,LPCTSTR)”
+          D:\Cdaima\private\五子棋\五子棋\test.cpp(81,2):
+          “void settextstyle(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+              D:\Cdaima\private\五子棋\五子棋\test.cpp(81,22):
+              指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      D:\Cdaima\private\五子棋\五子棋\test.cpp(81,2):
+      尝试匹配参数列表“(int, int, const char [9])”时
+  
+D:\Cdaima\private\五子棋\五子棋\test.cpp(84,18): error C2665: “textwidth”: 没有重载函数可以转换所有参数类型
+      E:\VS I 2022\VC\Auxiliary\VS\include\easyx.h(228,5):
+      可能是“int textwidth(TCHAR)”
+          D:\Cdaima\private\五子棋\五子棋\test.cpp(84,18):
+          “int textwidth(TCHAR)”: 无法将参数 1 从“const char *”转换为“TCHAR”
+              D:\Cdaima\private\五子棋\五子棋\test.cpp(84,28):
+              没有使该转换得以执行的上下文
+      E:\VS I 2022\VC\Auxiliary\VS\include\easyx.h(227,5):
+      或    “int textwidth(LPCTSTR)”
+          D:\Cdaima\private\五子棋\五子棋\test.cpp(84,18):
+          “int textwidth(LPCTSTR)”: 无法将参数 1 从“const char *”转换为“LPCTSTR”
+              D:\Cdaima\private\五子棋\五子棋\test.cpp(84,28):
+              指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      D:\Cdaima\private\五子棋\五子棋\test.cpp(84,18):
+      尝试匹配参数列表“(const char *)”时
+  
+D:\Cdaima\private\五子棋\五子棋\test.cpp(85,19): error C2665: “textheight”: 没有重载函数可以转换所有参数类型
+      E:\VS I 2022\VC\Auxiliary\VS\include\easyx.h(230,5):
+      可能是“int textheight(TCHAR)”
+          D:\Cdaima\private\五子棋\五子棋\test.cpp(85,19):
+          “int textheight(TCHAR)”: 无法将参数 1 从“const char *”转换为“TCHAR”
+              D:\Cdaima\private\五子棋\五子棋\test.cpp(85,30):
+              没有使该转换得以执行的上下文
+      E:\VS I 2022\VC\Auxiliary\VS\include\easyx.h(229,5):
+      或    “int textheight(LPCTSTR)”
+          D:\Cdaima\private\五子棋\五子棋\test.cpp(85,19):
+          “int textheight(LPCTSTR)”: 无法将参数 1 从“const char *”转换为“LPCTSTR”
+              D:\Cdaima\private\五子棋\五子棋\test.cpp(85,30):
+              指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      D:\Cdaima\private\五子棋\五子棋\test.cpp(85,19):
+      尝试匹配参数列表“(const char *)”时
+  
+D:\Cdaima\private\五子棋\五子棋\test.cpp(92,2): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+      E:\VS I 2022\VC\Auxiliary\VS\include\easyx.h(226,6):
+      可能是“void outtextxy(int,int,TCHAR)”
+          D:\Cdaima\private\五子棋\五子棋\test.cpp(92,2):
+          “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const char *”转换为“TCHAR”
+              D:\Cdaima\private\五子棋\五子棋\test.cpp(92,26):
+              没有使该转换得以执行的上下文
+      E:\VS I 2022\VC\Auxiliary\VS\include\easyx.h(225,6):
+      或    “void outtextxy(int,int,LPCTSTR)”
+          D:\Cdaima\private\五子棋\五子棋\test.cpp(92,2):
+          “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const char *”转换为“LPCTSTR”
+              D:\Cdaima\private\五子棋\五子棋\test.cpp(92,26):
+              指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      D:\Cdaima\private\五子棋\五子棋\test.cpp(92,2):
+      尝试匹配参数列表“(int, int, const char *)”时
+  
